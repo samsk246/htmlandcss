@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14.10.Practice</title>
+</head>
+<style>
+    *{
+        background-color: aquamarine;
+    }
+    h1{
+        text-align: center;
+        margin: 50px;
+        
+    }
+    form,div,label,input{ 
+        background-color: cornsilk;
+        /* text-align: center; */
+    }
+    form{
+        margin: 0px 40px;
+    }
+    div{
+        background-color: cornsilk;
+    }
+    label{
+        background-color: cornsilk;
+    }
+    select{
+        background-color: darkgray;
+    }
+    
+</style>
+
+<body>
+    <h1>Survey form</h1>
+    
+  <form action="backend.php">Let us know how we can improve freeCodeCamp
+      
+      <br>
+      <label for="Name">Name</label>
+    <div>
+   <input type="text" id="Name">
+    </div>
+    <br>
+    <div>
+    Email <input type="email" name="" id="">
+</div>
+<br>
+<div>
+    Age <input type="text">
+</div>
+<br>
+<div>
+    <label for="role" id="label-role" >
+        Which option best describes your current role?
+        <select name="role" id="role">
+            <option value="student">Student</option>
+            <option value="job">Job</option>
+            <option value="business">Business</option>
+        </select>
+    </label>
+</div>
+<br>
+<div>
+    How likelys is that would recommend freeCodeCamp to a friend?
+    <div>
+      <input type="checkbox" > Definitely 
+      <br>
+      <input type="checkbox"> Maybe
+      <br>
+      <input type="checkbox"> Not sure
+
+    </div>
+</div>
+<br>
+<div>
+    <label for="role" id="lable-role" >
+        What do you like most in FCC: 
+        <select name="role" id="role">
+            <option value="select an option">Select an option</option>
+            <option value="Option">Option 1</option>
+            <option value="Option">Option 2</option>
+            <option value="Option">Option 3</option>
+        </select>
+    </label>
+</div>
+<br>
+<div>
+    Things that should be improved in the future (Check all that apply):
+    <div>
+        <input type="checkbox"> Front-end Project
+        <br>
+        <input type="checkbox"> Back-end Project
+        <br>
+        <input type="checkbox"> Data Visualization
+    </div>
+</div>
+      
+  </form>
+
+
+   </div>
+</body>
+</html>
